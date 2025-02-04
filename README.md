@@ -13,7 +13,7 @@ This is a simple **Rock, Paper, Scissors** game built with JavaScript, HTML, and
 - 📊 **Live Game Results** – Displays winner instantly  
 
 ---
-
+🔗 **Play the game here**: [Rock Paper Scissors](https://ikram001.github.io/Rock-Paper-Scissors-Game/)  
 ## 🎯 How to Play  
 1. Choose **Rock, Paper, or Scissors** by clicking on the buttons.  
 2. The computer will randomly pick its move.  
