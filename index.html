@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="./rps.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rps</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Rock-Paper-Scissors</h1>
+    <div class="container">
+      <div class="img-container" id="">
+        <img
+          src="./imgs/rockLeft.png"
+          alt="rockleft"
+          id="humanimg" />
+      </div>
+      <div class="img-container" id="">
+        <img
+          src="./imgs/rockRight.png"
+          alt="rockright"
+          id="compimg" />
+      </div>
+    </div>
+    <div>
+      <button id="rock">
+        <span class="shadow"></span>
+         <span class="edge"></span>
+        <span class="front text"> ROCK
+  </span>
+      </button>
+      <button id="paper"><span class="shadow"></span>
+        <span class="edge"></span>
+        <span class="front text"> PAPER
+        </span></button>
+      <button id="scissors"><span class="shadow"></span>
+        <span class="edge"></span>
+        <span class="front text"> SCISSORS
+        </span></button>
+    </div>
+    <div id="results"></div>
+    <div id="score">Human: 0 | Computer: 0</div>
+  </body>
+</html>
